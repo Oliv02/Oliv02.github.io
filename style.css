@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/*font-family: 'Markazi Text'*/
+body,html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Markazi Text;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.separator{
+    height: 20px;
+    width: 80px;
+    border: none;
+    box-shadow: darkblue;
+    background-color: greenyellow;
+}
+
+/*header*/
+.header {
+    background-color:#2BE0C3;
+    height: 70px;
+    line-height: 70px;
+    font font-weight: bold;
+}
+
+.logo {
+    color:#344FFA;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 30px;
+    float: left;
+    font-family: Arial black;
+}
+
+.sommaire {
+    float: right;
+}
+
+.sommaire a {
+    color: blueviolet;
+    margin-right: 70pxpx;
+}
+
+.sommaire a:hover{
+    color: #E02804;
+}
+
+
+/*bannière*/
+.banner{
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.ban img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.inner-banner{
+    position: absolute;
+    top:60%;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1{
+    color: firebrick;
+    text-shadow: 4px 4px 80px #E02804;
+}
+
+
+/*about*/
+#about{
+    text-decoration-style: initial;
+    text-align: center;
+    color: indigo;
+    padding-top: 10%;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+.about article h2 {
+    margin-left: 40%;
+    text-size-adjust: 45%;
+}
+
+.about article h2 img{
+    width: 30%;
+    max-width: 30%;
+}
+
+
+/*contact*/
+.footer{
+    background-color: #2BE0C3;
+    text-align: center;
+    
+}
+
+#pour me joindre{
+    color: black;
+    text-align: center;
+}
+
+.formulaire contact{
+    width: 500px;
+    display: block;
+    margin: 0auto;
+}
+
+.formulaire img{
+    width: 10%;
+    max-width: 10%;
+}
+
+/*Mon CV*/
+.CV{
+    text-align: center;
+}
